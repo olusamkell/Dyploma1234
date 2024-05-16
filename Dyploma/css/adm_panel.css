@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.wrapper {
+    max-width: 1700px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.logo>a {
+    text-decoration: none;
+    color: black;
+}
+
+.display-login {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-menu>a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    background-color: rgb(189, 185, 185);
+    padding: 20px;
+}
+
+.shapka {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    font-size: 20px;
+}
+
+.nav-menu>a:hover {
+    cursor: pointer;
+    scale: 1.1;
+}
+
+
+.preview {
+    background-repeat: no-repeat;
+    background-image: url(/image/preview.png);
+    width: auto;
+    height: 1000px;
+}
+
+.common-btn {
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+
+/* js кнопка вверх */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: rgb(70, 69, 69);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#myBtn:hover {
+    background-color: #807f7f;
+}
+
+/* js кнопка вверх */
+
+/* footer */
+
+footer {
+    background-color: rgb(189, 185, 185);
+    padding: 20px;
+    margin-top: 560px;
+}
+
+.box-call {
+    width: 250px;
+    text-align: center;
+}
+
+.company>a {
+    text-decoration: none;
+    color: #222121;
+}
+
+.internet-shop>a {
+    text-decoration: none;
+    color: #222121;
+}
+
+.company>a:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
+
+.internet-shop>a:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
+
+
+.common-footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.internet-shop {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.company {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.order_status {
+    margin-top: 50px;
+}
+
+.table-cell {
+    padding: 5px;
+    /*добавьте отступ для ячеек*/
+    border: 1px solid #000;
+    /*добавьте границу для ячеек*/
+}
+
+.allincommon {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.allincommon > p {
+    margin-top: 7px;
+}
+
+.containerr{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+footer {
+    background-color: rgb(189, 185, 185);
+    padding: 20px;
+    margin-top: 40px;
+}
+
+
+.common-footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.box-call {
+    width: 250px;
+    text-align: center;
+}
+
+.company>a {
+    text-decoration: none;
+    color: #222121;
+}
+
+.internet-shop>a {
+    text-decoration: none;
+    color: #222121;
+}
+
+.company>a:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
+
+.internet-shop>a:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
+
+
+.common-footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.internet-shop {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.company {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.send-btn {
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #222121 0%, #4d4d50 51%, #828888 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+    flex: 0 0 500px;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+}
+
+.send-btn:hover {
+    cursor: pointer;
+    scale: 0.9;
+}
+
+.imagee>img {
+    height: 500px;
+    width: 900px;
+}
+
+.news-item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.authorcatergory {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}

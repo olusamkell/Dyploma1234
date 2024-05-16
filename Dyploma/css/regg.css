@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(109, 108, 109)
+}
+
+.wrapper {
+  max-width: 700px;
+  margin: auto;
+  border-radius: 15PX;
+  margin-top: 300px;
+}
+
+.logotip {
+  text-decoration: none;
+  color: #000000;
+}
+
+.login {
+  text-decoration: none;
+  color: rgb(36, 36, 247);
+}
+
+.login:hover {
+  color: brown;
+}
+
+
+.login-passw {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  font-size: 20px
+}
+
+.sub {
+  width: 170px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 1px 25px;
+  font-family: 'Ubuntu';
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+    7px 7px 20px 0px rgba(0, 0, 0, .1),
+    4px 4px 5px 0px rgba(0, 0, 0, .1);
+  outline: none;
+}
+
+.sub {
+  background: rgb(20, 20, 20);
+  background: linear-gradient(0deg, rgb(40, 41, 40) 0%, rgb(55, 58, 56) 100%);
+  border: none;
+}
+
+.sub:hover {
+  background: rgb(58, 58, 58);
+  background: linear-gradient(0deg, rgb(38, 39, 38) 0%, rgb(75, 77, 75) 100%);
+}
+
+@media(max-width: 350px) {
+  .login-passw {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+}
+
+.message {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 15px 10px;
+  background-color: var(--white);
+  text-align: center;
+  z-index: 1000;
+  box-shadow: var(--box-shadow);
+  color: var(--black);
+}
+
+input {
+  width: 200px;
+  height: 25px;
+  border-radius: 8px;
+}
+  
+.continue {
+  text-decoration: none;
+  color: rgb(36, 36, 247);
+}

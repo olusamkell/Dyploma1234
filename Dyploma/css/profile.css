@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.logopfp>a:hover{
+    text-decoration: none;
+}
+
+.logopfp{
+    color: black;
+}
+
+
+body {
+    background: url(/image/greenbg.png);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 100px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.user-profile {
+    border: 2px solid black;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+    
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+    
+.user-profile {
+    text-align: center;
+}
+    
+h2 {
+    margin: 0;
+}
+    
+h3 {
+    margin: 10px 0;
+}
+    
+p {
+    margin: 6px 0;
+}
+    
+.delete-btn {
+    display: block;
+    margin: 5px 0;
+    background-color: #dc3545;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+}
+    
+.delete-btn:hover {
+    background-color: #c82333;
+}
+    
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+    
+input[type="submit"] {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.changepass{
+    margin-top: 20px;
+}
